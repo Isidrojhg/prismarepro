@@ -21,7 +21,7 @@ pipeline {
     stage('Scan') {
             steps {
                 // Scan the image | Input value from first script copied below, ''
-                prismaCloudScanImage ca: '', cert: '', dockerAddress: 'unix:///var/run/docker.sock', ignoreImageBuildTime: true, image: 'isidroj/myapp*', key: '', logLevel: 'info', podmanPath: '', project: '', resultsFile: 'prisma-cloud-scan-results.json'
+                prismaCloudScanImage ca: '', cert: '', dockerAddress: 'unix:///var/run/docker.sock', ignoreImageBuildTime: true, image: '34.27.123.128.sslip.io/testproject/myapp*', key: '', logLevel: 'info', podmanPath: '', project: '', resultsFile: 'prisma-cloud-scan-results.json'
             }
         }
     stage('Deploy Image') {
