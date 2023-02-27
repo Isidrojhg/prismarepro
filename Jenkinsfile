@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/Isidrojhg/testjgroup.git'
+        git 'https://github.com/Isidrojhg/prismarepro.git'
       }
     }
     stage('Building image') {
