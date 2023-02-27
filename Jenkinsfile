@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    registry = "isidroj/myapp"
-    registryCredential = 'dockerhub'
+    registry = "34.27.123.128.sslip.io/testproject/myapp"
+    registryCredential = 'Harbor'
     dockerImage = ''
   }
   agent any
