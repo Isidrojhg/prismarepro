@@ -1,7 +1,7 @@
 on: [ push, workflow_dispatch ]
 
 env:
-  IMAGE_NAME: isidroj/jgrouptest:tagname:latest
+  IMAGE_NAME: isidroj/jgrouptest:latest
 jobs:
   build-and-scan:
     name: Build and scan image
