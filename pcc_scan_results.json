@@ -1,0 +1,784 @@
+{
+	"results": [
+		{
+			"id": "sha256:5c0a95862d93fc20ac6c5c78a3843619717ea795bc2acad24116fa7a3b25e52f",
+			"name": "isidroj/jgrouptest:latest",
+			"distro": "Ubuntu 22.04.2 LTS",
+			"distroRelease": "jammy",
+			"collections": [
+				"All",
+				"Jakub-Test - Access Group (RBAC)"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "coreutils",
+					"version": "8.32-4.1ubuntu1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bash",
+					"version": "5.1-6ubuntu1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "adduser",
+					"version": "3.118ubuntu5",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "base-files",
+					"version": "12ubuntu4.3",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gzip",
+					"version": "1.10-4ubuntu4.1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "usrmerge",
+					"version": "25ubuntu2",
+					"licenses": [
+						"GPL v2 or later (please see /usr/share/common-licenses/GPL-2)."
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgcrypt20",
+					"version": "1.9.4-3ubuntu3",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ubuntu-keyring",
+					"version": "2021.03.26",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dpkg",
+					"version": "1.21.1ubuntu2.2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap2",
+					"version": "1:2.44-1ubuntu0.22.04.1",
+					"licenses": [
+						"BSD-3-clause or GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mawk",
+					"version": "1.3.4.20200120-3",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sensible-utils",
+					"version": "0.0.17",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tar",
+					"version": "1.34+dfsg-1ubuntu0.1.22.04.1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "diffutils",
+					"version": "1:3.8-0ubuntu2",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sed",
+					"version": "4.8-1ubuntu2",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debianutils",
+					"version": "5.5-1ubuntu2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "init-system-helpers",
+					"version": "1.62",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dash",
+					"version": "0.5.11+git20210903+057cd650a4ed-3build1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debconf",
+					"version": "1.5.79ubuntu1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "findutils",
+					"version": "4.8.0-1ubuntu3",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "grep",
+					"version": "3.7-1build1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtasn1-6",
+					"version": "4.18.0-4build1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "base-passwd",
+					"version": "3.5.52build1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "hostname",
+					"version": "3.23ubuntu2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gmp",
+					"version": "2:6.2.1+dfsg-3ubuntu1",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pam",
+					"version": "1.4.0-11ubuntu2.3",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc-12",
+					"version": "12.1.0-2ubuntu1~22.04",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cdebconf",
+					"version": "0.261ubuntu1"
+				},
+				{
+					"type": "os",
+					"name": "libcap-ng",
+					"version": "0.7.9-2.2build3",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgpg-error",
+					"version": "1.43-3",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "krb5",
+					"version": "1.19.2-2ubuntu0.2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xz-utils",
+					"version": "5.2.5-2ubuntu1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "procps",
+					"version": "2:3.3.17-6ubuntu2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nettle",
+					"version": "3.7.3-1build2",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libidn2",
+					"version": "2.3.2-2build1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "p11-kit",
+					"version": "0.24.0-6build1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsemanage",
+					"version": "3.3-1build2",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.3-2ubuntu0.1",
+					"licenses": [
+						"MIT/X11"
+					]
+				},
+				{
+					"type": "os",
+					"name": "systemd",
+					"version": "249.11-0ubuntu3.9",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libzstd",
+					"version": "1.4.8+dfsg-3build1",
+					"licenses": [
+						"BSD-3-clause and GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtirpc",
+					"version": "1.3.2-2ubuntu0.1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xxhash",
+					"version": "0.8.1-1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxcrypt",
+					"version": "1:4.4.27-1"
+				},
+				{
+					"type": "os",
+					"name": "shadow",
+					"version": "1:4.8.1-2ubuntu2.1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "attr",
+					"version": "1:2.5.1-1build1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "util-linux",
+					"version": "2.37.2-4ubuntu3",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sysvinit",
+					"version": "3.01-1ubuntu1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libunistring",
+					"version": "1.0-1",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre3",
+					"version": "2:8.39-13ubuntu0.22.04.1"
+				},
+				{
+					"type": "os",
+					"name": "audit",
+					"version": "1:3.0.7-1build1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libseccomp",
+					"version": "2.5.3-2ubuntu2",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lsb",
+					"version": "11.1.0ubuntu4",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.4.2-4",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnutls28",
+					"version": "3.7.3-4ubuntu1.2",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "db5.3",
+					"version": "5.3.28+dfsg1-0.8ubuntu3"
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.35-0ubuntu3.1",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libselinux",
+					"version": "3.3-1build2",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-5build1",
+					"licenses": [
+						"BSD-variant"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsepol",
+					"version": "3.3-1build1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnupg2",
+					"version": "2.2.27-3ubuntu2.1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "apt",
+					"version": "2.4.9",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "keyutils",
+					"version": "1.6.1-2ubuntu3",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "3.0.2-0ubuntu1.10",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lz4",
+					"version": "1.9.3-2build2",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libnsl",
+					"version": "1.3.0-2build2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1:1.2.11.dfsg-2ubuntu9.2"
+				},
+				{
+					"type": "os",
+					"name": "e2fsprogs",
+					"version": "1.46.5-2ubuntu1.1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre2",
+					"version": "10.39-3ubuntu0.1"
+				},
+				{
+					"type": "os",
+					"name": "perl",
+					"version": "5.34.0-3ubuntu1.2",
+					"licenses": [
+						"GPL-1+ or Artistic"
+					]
+				},
+				{
+					"type": "os",
+					"name": "acl",
+					"version": "2.3.1-1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "jar",
+					"name": "scala-library",
+					"version": "2.13.6",
+					"path": "/opt/test/scala-library-2.13.6.jar"
+				}
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.5.0 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2022-36944",
+					"status": "fixed in 2.13.9",
+					"cvss": 9,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "Scala 2.13.x before 2.13.9 has a Java deserialization chain in its JAR file. On its own, it cannot be exploited. There is only a risk in conjunction with Java object deserialization within an application. In such situations, it allows attackers to erase contents of arbitrary files, make network connections, or possibly run arbitrary code (specifically, Function0 functions) via a gadget chain.",
+					"severity": "critical",
+					"packageName": "scala-library",
+					"packageVersion": "2.13.6",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-36944",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Critical severity",
+						"DoS - High",
+						"Has fix"
+					],
+					"impactedVersions": [
+						"\u003e=2.13.0",
+						"\u003c2.13.9"
+					],
+					"publishedDate": "2022-09-23T18:15:00Z",
+					"discoveredDate": "2023-07-18T14:07:17Z",
+					"fixDate": "2022-09-25T00:00:20Z",
+					"layerTime": "2023-07-18T14:07:05Z",
+					"packagePath": "/opt/test/scala-library-2.13.6.jar",
+					"layerInstruction": "ADD file:05ff0f7ef86fc11e0d3bc96acf527312824084071be9796783b94d48c2906ef1 in /opt/test/ "
+				},
+				{
+					"id": "CVE-2022-3715",
+					"status": "needed",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A flaw was found in the bash package, where a heap-buffer overflow can occur in valid parameter_transform. This issue may lead to memory problems.",
+					"severity": "low",
+					"packageName": "bash",
+					"packageVersion": "5.1-6ubuntu1",
+					"link": "https://ubuntu.com/security/CVE-2022-3715",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-01-05T15:15:00Z",
+					"discoveredDate": "2023-07-18T14:07:17Z",
+					"layerTime": "2023-06-28T08:37:42Z",
+					"layerInstruction": "ADD file:140fb5108b4a2861b5718ad03b4a5174bba03589ea8d4c053e6a0b282f439ff3 in / "
+				},
+				{
+					"id": "CVE-2022-4899",
+					"status": "needed",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A vulnerability was found in zstd v1.4.10, where an attacker can supply empty string as an argument to the command line tool to cause buffer overrun.",
+					"severity": "low",
+					"packageName": "libzstd",
+					"packageVersion": "1.4.8+dfsg-3build1",
+					"link": "https://ubuntu.com/security/CVE-2022-4899",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-03-31T20:15:00Z",
+					"discoveredDate": "2023-07-18T14:07:17Z",
+					"layerTime": "2023-06-28T08:37:42Z",
+					"layerInstruction": "ADD file:140fb5108b4a2861b5718ad03b4a5174bba03589ea8d4c053e6a0b282f439ff3 in / "
+				},
+				{
+					"id": "CVE-2016-2781",
+					"status": "deferred",
+					"cvss": 6.5,
+					"vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
+					"description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal\\'s input buffer.",
+					"severity": "low",
+					"packageName": "coreutils",
+					"packageVersion": "8.32-4.1ubuntu1",
+					"link": "https://ubuntu.com/security/CVE-2016-2781",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2017-02-07T15:59:00Z",
+					"discoveredDate": "2023-07-18T14:07:17Z",
+					"layerTime": "2023-06-28T08:37:42Z",
+					"layerInstruction": "ADD file:140fb5108b4a2861b5718ad03b4a5174bba03589ea8d4c053e6a0b282f439ff3 in / "
+				},
+				{
+					"id": "CVE-2023-29383",
+					"status": "needed",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+					"description": "In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \\n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \\r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that \\\"cat /etc/passwd\\\" shows a rogue user account.",
+					"severity": "low",
+					"packageName": "shadow",
+					"packageVersion": "1:4.8.1-2ubuntu2.1",
+					"link": "https://ubuntu.com/security/CVE-2023-29383",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-04-14T22:15:00Z",
+					"discoveredDate": "2023-07-18T14:07:17Z",
+					"layerTime": "2023-06-28T08:37:42Z",
+					"layerInstruction": "ADD file:140fb5108b4a2861b5718ad03b4a5174bba03589ea8d4c053e6a0b282f439ff3 in / "
+				},
+				{
+					"id": "CVE-2022-3219",
+					"status": "deferred",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+					"description": "GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.",
+					"severity": "low",
+					"packageName": "gnupg2",
+					"packageVersion": "2.2.27-3ubuntu2.1",
+					"link": "https://ubuntu.com/security/CVE-2022-3219",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - Low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-02-23T20:15:00Z",
+					"discoveredDate": "2023-07-18T14:07:17Z",
+					"layerTime": "2023-06-28T08:37:42Z",
+					"layerInstruction": "ADD file:140fb5108b4a2861b5718ad03b4a5174bba03589ea8d4c053e6a0b282f439ff3 in / "
+				},
+				{
+					"id": "CVE-2023-2975",
+					"status": "needed",
+					"description": "Issue summary: The AES-SIV cipher implementation contains a bug that causes it to ignore empty associated data entries which are unauthenticated as a consequence.  Impact summary: Applications that use the AES-SIV algorithm and want to authenticate empty data entries as associated data can be mislead by removing adding or reordering such empty entries as these are ignored by the OpenSSL implementation. We are currently unaware of any such applications.  The AES-SIV algorithm allows for authentication of multiple associated data entries along with the encryption. To authenticate empty data the application has to call EVP_EncryptUpdate() (or EVP_CipherUpdate()) with NULL pointer as the output buffer and 0 as the input buffer length. The AES-SIV implementation in OpenSSL just returns success for such a call instead of performing the associated data authentication operation. The empty data thus will not be authenticated.  As this issue does not affect non-empty associated data authentication and we expect it to be rare for an application to use empty associated data entries this is qualified as Low severity issue.",
+					"severity": "low",
+					"packageName": "openssl",
+					"packageVersion": "3.0.2-0ubuntu1.10",
+					"link": "https://ubuntu.com/security/CVE-2023-2975",
+					"riskFactors": [
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-07-14T12:15:00Z",
+					"discoveredDate": "2023-07-18T14:07:17Z",
+					"layerTime": "2023-06-28T08:37:42Z",
+					"layerInstruction": "ADD file:140fb5108b4a2861b5718ad03b4a5174bba03589ea8d4c053e6a0b282f439ff3 in / "
+				}
+			],
+			"vulnerabilityDistribution": {
+				"critical": 1,
+				"high": 0,
+				"medium": 0,
+				"low": 6,
+				"total": 7
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "2023-06-28T08:37:40Z",
+					"instruction": "ARG RELEASE"
+				},
+				{
+					"created": "2023-06-28T08:37:40Z",
+					"instruction": "ARG LAUNCHPAD_BUILD_ARCH"
+				},
+				{
+					"created": "2023-06-28T08:37:40Z",
+					"instruction": "LABEL org.opencontainers.image.ref.name=ubuntu"
+				},
+				{
+					"created": "2023-06-28T08:37:40Z",
+					"instruction": "LABEL org.opencontainers.image.version=22.04"
+				},
+				{
+					"created": "2023-06-28T08:37:42Z",
+					"instruction": "ADD file:140fb5108b4a2861b5718ad03b4a5174bba03589ea8d4c053e6a0b282f439ff3 in / "
+				},
+				{
+					"created": "2023-06-28T08:37:42Z",
+					"instruction": "CMD [\"/bin/bash\"]"
+				},
+				{
+					"created": "2023-07-18T14:07:05Z",
+					"instruction": "ADD file:05ff0f7ef86fc11e0d3bc96acf527312824084071be9796783b94d48c2906ef1 in /opt/test/ "
+				}
+			],
+			"scanTime": "2023-07-18T14:08:19.672237267Z",
+			"scanID": "64b69cd36fa31c5ffe54fdd9"
+		}
+	],
+	"consoleURL": "https://app2.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A5c0a95862d93fc20ac6c5c78a3843619717ea795bc2acad24116fa7a3b25e52f"
+}
