@@ -22,29 +22,9 @@ jobs:
           pcc_user: ${{ secrets.PCC_USER }}
           pcc_pass: ${{ secrets.PCC_PASS }}
           image_name: ${{ env.IMAGE_NAME }}
-      - name: Prisma - Inspect action SARIF report
-        run: jq '.' ${{ steps.scan.outputs.sarif_file }}
-        
-      - name: Prisma - Inspect action JSON report
-        run: jq '.' ${{ steps.scan.outputs.results_file }}
-        
-      - name: Prisma - Inspect action JSON report
-        run: jq '.' ${{ steps.scan.outputs.results_file }}
-      
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-          
-      - name: Install dependencies and run scripts
-        run: |
-          sudo apt-get install -y python3
-          wget -O converter.py https://raw.githubusercontent.com/SimOnPanw/twistcli-sarif/main/main.py
-          export TL_VERSION=$(curl -s -k -u ${{ secrets.PCC_USER }}:${{ secrets.PCC_PASS }} ${{ env.PRISMA_CLOUD_CONSOLE }}/api/v1/version)
-          python3 converter.py --twistcli "$TL_VERSION" --results ${{ steps.scan.outputs.results_file }} --output "results.sarif"
-
+     # (Optional) for compatibility with GitHub's code scanning alerts
       - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@v2
+        if: ${{ always() }} # necessary if using failure thresholds in the image scan
+        uses: github/codeql-action/upload-sarif@v1
         with:
-          sarif_file: results.sarif
-
+          sarif_file: ${{ steps.scan.outputs.sarif_file }}
