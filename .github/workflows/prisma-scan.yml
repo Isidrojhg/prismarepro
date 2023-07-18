@@ -29,14 +29,14 @@ jobs:
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: ${{ steps.scan.outputs.sarif_file }}
-      - name: GIT commit and push docs
-        env: 
-          CI_COMMIT_MESSAGE: SARIF test
-          CI_COMMIT_AUTHOR: isidroj
-        run: |
-          git config --global user.email "isidrohortelano@gmail.com"
-          git config --global user.name "isidrojhg"
-          git add ${{ steps.scan.outputs.sarif_file }}
-          git add ${{ steps.scan.outputs.results_file	}}
-          git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-          git push
+#       - name: GIT commit and push docs
+#         env: 
+#           CI_COMMIT_MESSAGE: SARIF test
+#           CI_COMMIT_AUTHOR: isidroj
+#         run: |
+#           git config --global user.email "isidrohortelano@gmail.com"
+#           git config --global user.name "isidrojhg"
+#           git add ${{ steps.scan.outputs.sarif_file }}
+#           git add ${{ steps.scan.outputs.results_file	}}
+#           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+#           git push
