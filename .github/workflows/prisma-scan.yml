@@ -22,6 +22,8 @@ jobs:
           pcc_user: ${{ secrets.PCC_USER }}
           pcc_pass: ${{ secrets.PCC_PASS }}
           image_name: ${{ env.IMAGE_NAME }}
+      - name: Prisma - Inspect action SARIF report
+        run: jq '.' ${{ steps.scan.outputs.sarif_file }}
       # (Optional) for compatibility with GitHub's code scanning alerts
       - name: Upload SARIF file
         if: ${{ always() }} # necessary if using failure thresholds in the image scan
