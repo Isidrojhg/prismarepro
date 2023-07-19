@@ -1,2 +1,1 @@
-FROM ubuntu:latest
-ADD scala-library-2.13.6.jar /opt/test/
+FROM ibmcom/websphere-liberty:22.0.0.13-full-java8-ibmjava-ubi
