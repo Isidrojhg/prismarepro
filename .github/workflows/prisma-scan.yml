@@ -1,7 +1,7 @@
 on: [ push, workflow_dispatch ]
 
 env:
-  IMAGE_NAME: isidroj/websphere-liberty:22.0.0.13-full-java8-ibmjava-ubi:test
+  IMAGE_NAME: isidroj/websphere-liberty:22.0.0.13-full-java8-ibmjava-ubi
 jobs:
   build-and-scan:
     name: Build and scan image
