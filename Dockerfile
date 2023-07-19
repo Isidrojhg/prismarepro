@@ -1,2 +1,1 @@
-FROM ubuntu:latest
-ADD scala-library-2.13.6.jar /app
+FROM registry.suse.com/bci/golang:1.18 as build
