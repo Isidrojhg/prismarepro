@@ -1,3 +1,5 @@
 #FROM ubuntu:latest
 #ADD scala-library-2.13.6.jar /app
-FROM public.ecr.aws/lambda/dotnet:6.2023.02.03.12
+FROM apline
+RUN RUN apk add --update --no-cache libexpat-2.6.4-r0
+
